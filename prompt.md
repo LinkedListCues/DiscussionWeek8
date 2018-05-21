@@ -32,3 +32,6 @@ Write unit tests for the following edge cases:
 If you're feeling adventurous, you can witness the speed of this heap implementation by writing a unit test that adds 2^20 elements and then extracts them back out. My implementation takes ~900ms to do this. Yours should be about the same.
 
 ## Micro-quiz
+1. What is the time complexity for finding the kth largest element in a binary heap? Assume that you have access to the collection of nodes in the heap (5 words max.)
+2. Construct a three-element heap that is also a binary search tree. (3 words max.)
+3. If we assume an array representation of a heap, does the following array represent a valid min-heap? `[2, 10, 4, 5, 3, 15]` (1 word)
