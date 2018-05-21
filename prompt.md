@@ -17,7 +17,7 @@ Following the slides, implement a binary heap that uses an array to store its el
 Skeleton code has been given to you. The heap should afford the following methods in its API:
 
 - `int Peek`, which returns the root if the heap is non-empty and throws an exception otherwise
-- `void ExtractMax`, which removes and returns the root if the heap is non-empty and throws an exception otherwise
+- `int ExtractMax`, which removes and returns the root if the heap is non-empty and throws an exception otherwise
 - `void AddElement(integer key)`, which adds the element to the heap if it is not full and throws an exception otherwise
 
 Write unit tests for the following edge cases:
