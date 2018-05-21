@@ -49,15 +49,6 @@ namespace HeapTests
         }
 
         [TestMethod]
-        public void AddMany () {
-            var heap = new BinaryHeap(1024);
-            for (int i = 1; i <= 1000; i++) {
-                heap.AddElement(i);
-                Assert.AreEqual(i, heap.Peek());
-            }
-        }
-
-        [TestMethod]
         public void ExtractMaxMany () {
             var heap = new BinaryHeap(1024);
             for (int i = 1; i <= 1000; i++) { heap.AddElement(i); }
